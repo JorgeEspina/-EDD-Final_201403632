@@ -1,0 +1,23 @@
+digraph ARBOL_SPL{
+	node[shape = circle,width=0.5,height=0.5,fillcolor="Orange"style="filled"];
+	edge[style = "bold"];
+	struct25[label = "Id = 25"];
+	struct77[label = "Id = 77"];
+	struct35[label = "Id = 35"];
+	struct33[label = "Id = 33"];
+	struct88[label = "Id = 88"];
+	struct40[label = "Id = 40"];
+	struct80[label = "Id = 80"];
+	struct56[label = "Id = 56"];
+	struct130[label = "Id = 130"];
+	struct100[label = "Id = 100"];
+	struct25->struct77[label="Der"];
+	struct77->struct35[label="Izq"];
+	struct77->struct80[label="Der"];
+	struct35->struct33[label="Izq"];
+	struct35->struct88[label="Der"];
+	struct88->struct40[label="Izq"];
+	struct80->struct56[label="Der"];
+	struct56->struct130[label="Der"];
+	struct130->struct100[label="Izq"];
+}
